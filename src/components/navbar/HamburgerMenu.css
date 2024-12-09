@@ -1,0 +1,92 @@
+.HamburgerMenu-container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.HamburgerMenu-bar1,
+.HamburgerMenu-bar2,
+.HamburgerMenu-bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.HamburgerMenu-container.HamburgerMenu-change .HamburgerMenu-bar1 {
+  transform: translate(0, 10px) rotate(-45deg);
+}
+
+.HamburgerMenu-container.HamburgerMenu-change .HamburgerMenu-bar2 {
+  opacity: 0;
+}
+
+.HamburgerMenu-container.HamburgerMenu-change .HamburgerMenu-bar3 {
+  transform: translate(0, -4px) rotate(45deg);
+}
+
+
+.HamburgerMenu-card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  z-index: 1000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.HamburgerMenu-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
+  transition: all 0.3s ease-in-out;
+}
+
+.HamburgerMenu-close:hover {
+  color: red;
+}
+
+.HamburgerMenu-aParent {
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(32, 45, 32);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HamburgerMenu-aParent a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  height: 10vh;
+  width: 90%;
+  font-size: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.HamburgerMenu-aParent a:hover {
+  transform: scale(1.1);
+  background-color: rgb(61, 80, 61);
+}

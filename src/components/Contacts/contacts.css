@@ -1,0 +1,11 @@
+.contacts{
+    height: 30vh;
+    width: 100%;
+    background: #000;
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

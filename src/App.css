@@ -1,0 +1,10 @@
+.App{
+  height: auto;
+  width: 100%;
+  background: rgb(29, 47, 29);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+

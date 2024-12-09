@@ -1,0 +1,30 @@
+.cinfo{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(189, 189, 189);
+    transition: 0.3s all ease-in-out;
+    border-radius: 10px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+@media screen and (max-width: 768px){
+    
+}
+.cinfo:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.cinfoA{
+    text-decoration: none;
+}
+.cinfoA img{
+    width: 50px;
+}
+.cinfoA p{
+    margin: 0;
+    color: black;
+}

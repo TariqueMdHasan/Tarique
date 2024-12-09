@@ -1,0 +1,42 @@
+
+@media screen and (min-width: 769px){
+    .Photo-box {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .MyPicture{
+        width: 250px;
+        background: black;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        border: 10px solid white;
+    }
+    .MyPicture img{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 768px){
+    .Photo-box {
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .MyPicture{
+        width: 180px;
+        background: black;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        border: 8px solid white;
+    }
+    .MyPicture img{
+        width: 180px;
+    }
+}
+
