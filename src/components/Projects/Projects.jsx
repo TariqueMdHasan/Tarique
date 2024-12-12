@@ -23,6 +23,20 @@ const Data = [
   {
     Header: "Event Calendar",
     ProjectL: "https://event-calendar-pi.vercel.app/",
+    ProjectPhoto: "https://github.com/TariqueMdHasan/images/blob/main/EventCalendar.jpg?raw=true",
+    LN: [
+      "In this calendar, the user can create events on any date and between any time",
+      "This website is purely frontend website developed within Reactjs and CSS",
+      "User can edit and delete any event",
+      "User can download event of any month in JSON and CSV file",
+      "User can search events with the keywords",
+      "This project is uploaded on GitHub and hosted on vercel",
+      "It is RESPONSIVE",
+    ],
+  },
+  {
+    Header: "Event Calendar",
+    ProjectL: "https://event-calendar-pi.vercel.app/",
     ProjectPhoto: "https://github.com/TariqueMdHasan/images/blob/main/Event-calendar.jpg?raw=true",
     LN: [
       "In this calendar, the user can create events on any date and between any time",
