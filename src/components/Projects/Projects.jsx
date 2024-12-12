@@ -29,7 +29,7 @@ const Data = [
       "This website is purely frontend website developed within Reactjs and CSS",
       "User can edit and delete any event",
       "User can download event of any month in JSON and CSV file",
-      "User can search events with the keywords"
+      "User can search events with the keywords",
       "This project is uploaded on GitHub and hosted on vercel",
       "It is RESPONSIVE",
     ],
